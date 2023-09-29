@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#new-case-button {
+  bottom: 10vh;
+  margin: 10px auto;
+}
+
+.buttonOn {
+  height: 60px;
+  width: 110px;
+  color: black;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+.buttonOff {
+  height: 60px;
+  width: 110px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.2);
+}
