@@ -6,17 +6,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 5%;
   }
   
   .modalContainer {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: fit-content;
+    min-height: fit-content;
     border-radius: 12px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 4px;
   }
   
   .modalContainer .title {
@@ -67,4 +74,18 @@
   
   #cancelBtn {
     background-color: crimson;
+  }
+
+  #img1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+  }
+
+  #width {
+    width: 60px;
+    height: 36px;
+    margin: 10px auto 6px;
+    font-size: 1.35rem;
+    padding: 5px;
   }

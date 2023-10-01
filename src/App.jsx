@@ -18,7 +18,7 @@ function App() {
     <>
       <header>
         <h1 style={{color: "yellow"}}>
-        Click to Start a New Case Layout
+          Click to Start a New Case Layout
         </h1>
         <button
           className="openModalBtn"

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Modal.css'
+import img from '../assets/AS_UA-logo.jpg'
 
 const Modal = ({ closeModal }) => {
   return (
@@ -13,6 +14,9 @@ const Modal = ({ closeModal }) => {
             </div>
             <div className="body"></div>
                 <p>Start with the case height.</p>
+                <img id="img1" src={ img } />
+                <label for="casewidth">Width of Case Interior:</label>
+                <input id="width" type="text" maxlength="4"></input>
             <div className="footer">
                 <button onClick={() => closeModal(false)}>Cancel</button>
                 <button> Continue </button>
