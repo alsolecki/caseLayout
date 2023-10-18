@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Modal from './components/Modal.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
         </button>
       </header>
       {openModal && <Modal closeModal={setOpenModal}  />}
+
+      <Header />
     </>
   )
 }
