@@ -7,7 +7,7 @@ function App() {
 
   const [openModal, setOpenModal] = useState(false);
 
-  let buttonStyle = { border: "2px solid yellow", 
+  let buttonStyle = { border: "2px solid orange", 
                       borderRadius: "10px",
                       fontSize: "1.5rem",
                       width: "100px",
